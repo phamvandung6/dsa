@@ -1,0 +1,17 @@
+Câu a: 
+[2 Bích, 3 Bích, 4 Bích, 5 Bích, 6 Bích, 7 Bích, 8 Bích, 9 Bích, 10 Bích, J Bích, Q Bích, K Bích, A Bích, 2 Tép, 3 Tép, 4 Tép, 5 Tép, 6 Tép, 7 Tép, 8 Tép, 9 Tép, 10 Tép, J Tép, Q Tép, K Tép, A Tép, 2 Rô, 3 Rô, 4 Rô, 5 Rô, 6 Rô, 7 Rô, 8 Rô, 9 Rô, 10 Rô, J Rô, Q Rô, K Rô, A Rô, 2 Cơ, 3 Cơ, 4 Cơ, 5 Cơ, 6 Cơ, 7 Cơ, 8 Cơ, 9 Cơ, 10 Cơ, J Cơ, Q Cơ, K Cơ, A Cơ]
+Câu b: 
+Sau khi trộn bài: 
+[9 Rô, 4 Rô, 7 Cơ, J Rô, 2 Bích, Q Rô, 4 Tép, 10 Rô, 6 Rô, 9 Bích, 2 Tép, 6 Tép, 2 Cơ, K Rô, K Cơ, A Rô, 6 Bích, 4 Bích, 3 Rô, J Tép, 8 Cơ, 5 Tép, 5 Cơ, A Tép, 6 Cơ, 3 Tép, 7 Bích, J Bích, A Cơ, 3 Cơ, 10 Tép, K Tép, Q Cơ, 7 Tép, 3 Bích, 8 Tép, 10 Bích, 8 Rô, 5 Rô, Q Tép, Q Bích, 9 Cơ, 10 Cơ, 2 Rô, 9 Tép, 5 Bích, 4 Cơ, A Bích, J Cơ, K Bích, 7 Rô, 8 Bích]
+Sau khi sắp xếp: 
+[3 Bích, 3 Tép, 3 Rô, 3 Cơ, 4 Bích, 4 Tép, 4 Rô, 4 Cơ, 5 Bích, 5 Tép, 5 Rô, 5 Cơ, 6 Bích, 6 Tép, 6 Rô, 6 Cơ, 7 Bích, 7 Tép, 7 Rô, 7 Cơ, 8 Bích, 8 Tép, 8 Rô, 8 Cơ, 9 Bích, 9 Tép, 9 Rô, 9 Cơ, 10 Bích, 10 Tép, 10 Rô, 10 Cơ, J Bích, J Tép, J Rô, J Cơ, Q Bích, Q Tép, Q Rô, Q Cơ, K Bích, K Tép, K Rô, K Cơ, A Bích, A Tép, A Rô, A Cơ, 2 Bích, 2 Tép, 2 Rô, 2 Cơ]
+Câu c: 
+Sau khi trộn bài: 
+[A Tép, 6 Rô, 3 Cơ, 5 Tép, 7 Bích, 2 Bích, 5 Rô, 7 Cơ, 4 Tép, 7 Tép, 4 Rô, Q Bích, K Bích, 5 Cơ, 10 Bích, A Rô, 8 Bích, 8 Tép, Q Cơ, 4 Cơ, K Rô, 9 Bích, 10 Rô, K Tép, 2 Rô, K Cơ, 10 Tép, 5 Bích, 3 Bích, 4 Bích, Q Tép, J Rô, 9 Cơ, 2 Tép, 10 Cơ, 3 Rô, J Cơ, 8 Cơ, J Bích, Q Rô, 9 Rô, 8 Rô, 6 Tép, 2 Cơ, 6 Bích, 7 Rô, J Tép, 6 Cơ, 9 Tép, 3 Tép, A Bích, A Cơ]
+Sau khi sắp xếp: 
+[A Tép, 6 Rô, 3 Cơ, 5 Tép, 7 Bích, 2 Bích, 5 Rô, 7 Cơ, 4 Tép, 7 Tép, 4 Rô, Q Bích, K Bích, 5 Cơ, 10 Bích, A Rô, 8 Bích, 8 Tép, Q Cơ, 4 Cơ, K Rô, 9 Bích, 10 Rô, K Tép, 2 Rô, K Cơ, 10 Tép, 5 Bích, 3 Bích, 4 Bích, Q Tép, J Rô, 9 Cơ, 2 Tép, 10 Cơ, 3 Rô, J Cơ, 8 Cơ, J Bích, Q Rô, 9 Rô, 8 Rô, 6 Tép, 2 Cơ, 6 Bích, 7 Rô, J Tép, 6 Cơ, 9 Tép, 3 Tép, A Bích, A Cơ]
+Câu d: 
+Sau khi trộn bài: 
+[2 Cơ, Q Rô, 8 Cơ, 9 Bích, K Tép, Q Bích, K Rô, J Bích, Q Cơ, A Bích, 9 Rô, 2 Tép, J Tép, 7 Bích, 7 Cơ, 5 Rô, 4 Tép, K Bích, 8 Tép, 8 Bích, 3 Bích, J Cơ, A Cơ, 5 Bích, 6 Tép, 4 Bích, 3 Tép, 3 Rô, K Cơ, 9 Cơ, 4 Cơ, 10 Bích, 6 Bích, A Rô, 6 Rô, 5 Tép, 3 Cơ, 10 Cơ, 2 Bích, 10 Rô, Q Tép, J Rô, 4 Rô, 8 Rô, 6 Cơ, 9 Tép, 7 Rô, 7 Tép, 5 Cơ, 10 Tép, 2 Rô, A Tép]
+
+Process finished with exit code 0

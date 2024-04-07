@@ -1,0 +1,34 @@
+Câu a: 
+Nhập độ dài của mảng: 
+5
+1 4 2 5 3
+[1, 2, 3, 4, 5]
+Câu b: 
+Random numbers: [478465, 568436, 255173, 558557, 381379, 22762, 699918, 862788, 903794, 402427]
+Câu c: 
+Thuật toán sắp xếp nội bọt: [22762, 255173, 381379, 402427, 478465, 558557, 568436, 699918, 862788, 903794]
+Thuật toán sắp xếp chọn: [22762, 255173, 381379, 402427, 478465, 558557, 568436, 699918, 862788, 903794]
+Thuật toán sắp xếp chèn: [22762, 255173, 381379, 402427, 478465, 558557, 568436, 699918, 862788, 903794]
+Thuật toán sắp xếp trộn: [22762, 255173, 381379, 402427, 478465, 558557, 568436, 699918, 862788, 903794]
+Thuật toán sắp xếp nhanh: [22762, 255173, 381379, 402427, 478465, 558557, 568436, 699918, 862788, 903794]
+Câu d: 
+Dãy số sau vòng lặp thứ 1: [4, 2, 3, 5, 1, 6, 7]
+Dãy số sau vòng lặp thứ 2: [2, 3, 4, 1, 5, 6, 7]
+Dãy số sau vòng lặp thứ 3: [2, 3, 1, 4, 5, 6, 7]
+Dãy số sau vòng lặp thứ 4: [2, 1, 3, 4, 5, 6, 7]
+Dãy số sau vòng lặp thứ 5: [1, 2, 3, 4, 5, 6, 7]
+Dãy số sau vòng lặp thứ 6: [1, 2, 3, 4, 5, 6, 7]
+Số lần so sánh: 21
+Số lần đổi chỗ: 10
+Câu e: Đo thời gian thực thi của thuật toán sắp xếp với 100, 1000, 10000, 100000 phần tử 
+Thời gian thực thi của Bubble Sort (nanoseconds): 198900
+Thời gian thực thi của Bubble Sort (nanoseconds): 6216100
+Thời gian thực thi của Bubble Sort (nanoseconds): 150954800
+Thời gian thực thi của Bubble Sort (nanoseconds): 18838395600
+
+Thời gian thực thi của Quick Sort (nanoseconds): 29700
+Thời gian thực thi của Quick Sort (nanoseconds): 407100
+Thời gian thực thi của Quick Sort (nanoseconds): 1321700
+Thời gian thực thi của Quick Sort (nanoseconds): 9135800
+
+Process finished with exit code 0

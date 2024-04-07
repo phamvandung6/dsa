@@ -1,0 +1,11 @@
+Nhập văn bản: 
+toi ten la dung ten toi rat dep
+Word count:
+dep: 1
+rat: 1
+dung: 1
+la: 1
+ten: 2
+toi: 2
+
+Process finished with exit code 0

@@ -1,0 +1,24 @@
+Nhập độ dài của mảng phân số:
+5
+Phân số thứ 0:
+1 2
+Phân số thứ 1:
+2 3
+Phân số thứ 2:
+3 4
+Phân số thứ 3:
+4 5
+Phân số thứ 4:
+5 6
+Mảng phân số là: [1.0/2.0, 2.0/3.0, 3.0/4.0, 4.0/5.0, 5.0/6.0]
+Nhập vị trí mà muốn lấy phần tử
+0
+Phân số ở vị trí thứ 0: 1.0/2.0
+Tổng của n phân số là: 71.0/20.0
+Hiệu của n phân số là: 1.0/-6.0
+Tích của n phân số là: 1.0/3.0
+Thương của n phân số là: 3.0/4.0
+Đề bài tự đề xuất: Tìm phân số lớn nhất trong mảng phân số
+Phân số lớn nhất là: 5.0/6.0
+
+Process finished with exit code 0

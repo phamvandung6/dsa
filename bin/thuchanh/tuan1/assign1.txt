@@ -1,0 +1,91 @@
+Exercise 1:
+    a> T(n) = nlogn + 3n + 2
+            <= 6nlogn (Với mọi n >= 1)
+    Vậy T(n) = O(nlogn) với c = 6 và n0 = 1
+
+    b> T(n) = nlog(n!) + 5n^2 + 7
+            <= n^2*logn + 5n^2*logn + 7n^2*logn
+            = 13n^2*logn (Với mọi n >= 1)
+    Vậy T(n) = O(n^2*logn) với c = 13 và n0 = 1
+
+    c> T(n) = 1000n + 0.01n^2
+            <= 1000n^2 (Với mọi n >= 2)
+    Vậy T(n) = O(n^2) với c = 1000 và n0 = 2
+
+    d> T(n) = 100nlogn + n^3 + 100n
+            <= 100n^3 (Với mọi n >= 2)
+    Vậy T(n) = O(n^3) với c = 100 và n0 = 2
+
+    e> T(n) = 0.01nlogn + n(logn)^2
+            <= 10n(logn)^2 (Với mọi n >= 1)
+    Vậy T(n) = O(n(logn)^2) với c = 10 và n0 = 1
+
+Exercise 2:
+    1.
+    public static int example1 (int[] arr) {
+        int n = arr.length , total = 0;
+        //Vòng lặp chạy n lần
+        for (int j=0; j < n; j++)
+            //Hằng số c0
+            total += arr[j];
+        return total ;
+    }
+    Vậy độ phức tạp là: c0 * n = O(n)
+
+    2.
+    public static int example2 (int[] arr) {
+        int n = arr.length , total = 0;
+        //Vòng lặp chạy n/2 lần
+        for (int j=0; j < n; j += 2)
+            //Hằng số c0
+            total += arr[j];
+        return total ;
+    }
+    Vậy độ phức tạp là: c0 * n/2 = O(n)
+
+    3.
+    public static int example3 (int[ ] arr) {
+        int n = arr.length , total = 0;
+        //Vòng lặp chạy n lần
+        for (int j=0; j < n; j++)
+            Vòng lặp chạy j lần
+            for (int k=0; k <= j; k++)
+                //Hằng số c0
+                total += arr[j];
+        return total ;
+    }
+    Tổng số phép toán phải tính là: 1 + 2 + 3 + ... + n = n(n+1)/2
+    Vậy độ phức tạp là: c0 * n(n + 1)/2 = O(n^2)
+
+    4.
+    public static int example4 (int[ ] arr) {
+        int n = arr.length , prefix = 0, total = 0;
+        //Vòng lặp chạy n lần
+        for (int j=0; j < n; j++) { // loop from 0 to n -1
+            //Hằng số c0
+            prefix += arr [j];
+            //Hằng số c1
+            total += prefix ;
+        }
+        return total ;
+    }
+    Vậy độ phức tạp là: (c0 + c1) * n = O(n)
+
+   5.
+    public static int example5 (int[ ] first , int[ ] second ) {
+        int n = first .length , count = 0;
+        //Vòng lặp chạy n lần
+        for (int i=0; i < n; i++) {
+            int total = 0;
+            //Vòng lặp chạy n lần
+            for (int j=0; j < n; j++) // loop from 0 to n -1
+                //Vòng lặp chạy từ 0 đến j
+                for (int k=0; k <= j; k++) // loop from 0 to j
+                    //Hằng số c0
+                    total += first [k];
+            //Hằng số c1
+            if ( second [i] == total ) count ++;
+        }
+        return count ;
+    }
+    Vậy độ phức tạp là: (c0 * n(n - 1)/2 + c1) * n = O(n^3)
