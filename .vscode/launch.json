@@ -1,0 +1,130 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "thuchanh.heap.Main",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "on_tap_cuoi_ki.graph.Main",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "on_tap_cuoi_ki.linked_list.Main",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "on_tap_cuoi_ki.tree.Main",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "on_tap_cuoi_ki.stack.Main",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan9.bai4.Client",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Dijkstra",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan9.bai4.Dijkstra",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan8.bai4.bai2.Solution",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan8.bai4.Solution",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan8.bai3.problem2.Solution",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan8.bai3.problem1.Solution",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan8.bai3.bai1.Client",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "SeparateChainingHashMap",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan8.bai2.SeparateChainingHashMap",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan9.bai2.Client",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan9.bai1.Client",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan8.bai1.Client",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "thuchanh.tuan7.bai3.Client",
+            "projectName": "lab_ffde1bec"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "-Djava.library.path=\"lib\""
+        }
+    ]
+}

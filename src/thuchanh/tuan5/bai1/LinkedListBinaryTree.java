@@ -1,12 +1,25 @@
 package thuchanh.tuan5.bai1;
 
-public class LinkedListBinaryTree<T> implements BinaryTreeInterface<T> {
+public class LinkedListBinaryTree<T extends Comparable<T>> implements BinaryTreeInterface<T> {
     private Node<T> root;
     private int size;
 
     public LinkedListBinaryTree() {
         root = null;
         size = 0;
+    }
+
+    public LinkedListBinaryTree(T rootValue) {
+        root = new Node<T>(rootValue);
+        size = 1;
+    }
+
+    public void setRoot(Node<T> newRoot) {
+        root = newRoot;
+    }
+
+    public Node<T> getRoot() {
+        return root;
     }
 
     @Override
@@ -82,6 +95,10 @@ public class LinkedListBinaryTree<T> implements BinaryTreeInterface<T> {
         return null;
     }
 
+    public Node<T> findNode(T value) {
+        return findNode(root, value);
+    }
+
     private Node<T> findNode(Node<T> currentNode, T value) {
         if (currentNode == null) {
             return null;
@@ -146,6 +163,62 @@ public class LinkedListBinaryTree<T> implements BinaryTreeInterface<T> {
         return parent.right;
     }
 
+    public void insertBinaryTree(T value) {
+        root = insert(root, value);
+        size++;
+    }
+
+    public void delete(T value) {
+        root = delete(root, value);
+        size--;
+    }
+
+    public void inorderTraversal() {
+        inorderTraversal(root);
+    }
+
+    private void inorderTraversal(Node<T> node) {
+        if (node == null) {
+            return;
+        }
+        inorderTraversal(node.left);
+        System.out.print(node.value + " ");
+        inorderTraversal(node.right);
+    }
+
+    private Node<T> delete(Node<T> node, T value) {
+        if (node == null) {
+            return null;
+        }
+        if (value.compareTo(node.value) < 0) {
+            node.left = delete(node.left, value);
+        } else if (value.compareTo(node.value) > 0) {
+            node.right = delete(node.right, value);
+        } else {
+            if (node.left == null) {
+                return node.right;
+            } else if (node.right == null) {
+                return node.left;
+            }
+            node.value = findMin(node.right);
+            node.right = delete(node.right, node.value);
+        }
+        return node;
+    }
+
+    private Node<T> insert(Node<T> node, T value) {
+        if (node == null) {
+            return new Node<>(value);
+        }
+        if (value.compareTo(node.value) < 0) {
+            node.left = insert(node.left, value);
+        } else if (value.compareTo(node.value) > 0) {
+            node.right = insert(node.right, value);
+        }
+
+        return node;
+    }
+
     public void setNode(Node<T> p, T element) {
         if (p == null) {
             throw new IllegalArgumentException("Node cannot be null");
@@ -156,4 +229,20 @@ public class LinkedListBinaryTree<T> implements BinaryTreeInterface<T> {
     public Node<T> getNodeByValue(T value) {
         return findNode(root, value);
     }
+
+    public T findMin() {
+        if (root == null) {
+            throw new IllegalArgumentException("Tree is empty");
+        }
+        return findMin(root);
+    }
+
+    private T findMin(Node<T> node) {
+        if (node.left == null) {
+            return node.value;
+        }
+        return findMin(node.left);
+    }
+
+    
 }

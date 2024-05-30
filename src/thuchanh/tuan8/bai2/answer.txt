@@ -1,0 +1,31 @@
+* Hàm băm (Hash Function)
+    - Hàm băm (hash function) là một hàm toán học biến đổi dữ liệu đầu vào thành một
+    giá trị băm (hash value) có kích thước cố định. Việc ánh xạ này nên đảm bảo hai tính chất:
+        + Phân tán đều (Uniform distribution): Các giá trị băm được phân bố đồng đều trong miền giá trị của hàm băm.
+        + Collision resistance: Khó tìm được hai giá trị đầu vào khác nhau mà cho cùng một giá trị băm.
+
+    - Một hàm băm tốt cần đáp ứng những tiêu chí sau:
+        + Hiệu quả tính toán: Tính toán nhanh và dễ dàng.
+        + Phân tán đều: Các khóa đầu vào khác nhau nên tạo ra các giá trị băm khác nhau và phân bố đồng đều.
+        + Tính collision resistance: Khó tìm được hai đầu vào khác nhau mà cho cùng giá trị băm.
+
+* Một số phương pháp băm thường gặp:
+    + Hàm băm phân chia (Division method): Chia phần dư của khóa cho một số nguyên tố.
+    + Hàm băm dịch trái (Shift left): Dịch trái bit của khóa và lấy giá trị còn lại.
+    + Hàm băm xor (Xor method): Thực hiện phép toán XOR trên các byte của khóa.
+    + Hàm băm đa đơn vị (Polynomial method): Xem khóa như một đa thức và tính giá trị đa thức tại một số nguyên cụ thể.
+
+* Đụng độ (Collision)
+    - Đụng độ xảy ra khi hai khóa đầu vào khác nhau được ánh xạ tới cùng một giá trị băm. Điều này
+    là không thể tránh khỏi trong hầu hết các bảng băm, trừ khi bảng băm có kích thước không giới hạn.
+
+    - Khi xảy ra đụng độ, chúng ta cần có cơ chế để xử lý. Hai phương pháp phổ biến là:
+        + Separate Chaining (Open Hashing): Mỗi vị trí trong bảng băm là một danh sách liên kết.
+        Các khóa có cùng giá trị băm sẽ được thêm vào danh sách liên kết tương ứng.
+        + Open Addressing (Closed Hashing): Tất cả các khóa được lưu trữ trong bảng băm.
+        Khi xảy ra đụng độ, chúng ta sẽ tìm một vị trí khác trong bảng băm để lưu trữ khóa đó.
+
+    - Trong phương pháp Open Addressing, có một số kỹ thuật phổ biến như:
+        + Linear Probing: Duyệt qua các vị trí tiếp theo của bảng băm cho đến khi tìm được một vị trí trống.
+        + Quadratic Probing: Tăng khoảng cách giữa các vị trí theo bình phương để tránh việc lặp lại các vị trí đã xét.
+        + Double Hashing: Sử dụng hai hàm băm khác nhau để tính toán khoảng cách nhảy giữa các vị trí.

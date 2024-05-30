@@ -4,7 +4,7 @@ import thuchanh.tuan4.bai2.LinkedListStack;
 import thuchanh.tuan5.bai1.LinkedListBinaryTree;
 import thuchanh.tuan5.bai1.Node;
 
-public class ExpressionTree<E> extends LinkedListBinaryTree<E> {
+public class ExpressionTree<E extends Comparable<E>> extends LinkedListBinaryTree<E> {
     public ExpressionTree() {
         super();
     }
